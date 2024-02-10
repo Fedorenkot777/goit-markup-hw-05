@@ -539,7 +539,7 @@ img {
   opacity: 0;
 }
 
-.backdrop.is-open .modal {
+.backdrop .is-open .modal {
    opacity: 1;
    visibility: visible;
    pointer-events: auto;
