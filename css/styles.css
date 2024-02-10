@@ -541,9 +541,11 @@ img {
 
 .backdrop.is-open .modal {
    opacity: 1;
+   visibility: visible;
+   pointer-events: auto;
  }
 .modal-button {
-   position: absolute;
+  position: absolute;
   top:24px;
   right: 24px;
   width: 24px;
